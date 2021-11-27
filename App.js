@@ -23,7 +23,7 @@ const TabNavigator = createBottomTabNavigator({
       
       routeName
     //  const routeName = navigation.routeName;
-    // const routeName = navigation.state.routeName;
+     const routeName = navigation.state.routeName;
     //  const routeName = navigation.state;
     //  const routeName = state.routeName.navigation;
        
@@ -32,7 +32,7 @@ const TabNavigator = createBottomTabNavigator({
         return(
           <Image
          // source={require("assets/write.png")}
-         // source={require("./write.png")}
+          source={require("./write.png")}
          // source={require("./assets/write.png")}
          // source={require("write.png")}
           style={{width:40, height:40}}
@@ -43,7 +43,7 @@ const TabNavigator = createBottomTabNavigator({
       else if(routeName === "ReadStory"){
         return(
           <Image
-          // source={require("./read.png")}
+           source={require("./read.png")}
           // source={require("read.png")}
           // source={require("./assets")}
           // source={require("./assets/read.png")}
